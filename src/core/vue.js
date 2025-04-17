@@ -1,8 +1,9 @@
 import{createApp} from 'vue'
 import {createPinia} from 'pinia'
+
 export default() => {
     const vue = createApp({})
-    const ping = createPinia()
+    const pinia = createPinia()
 
     vue.use (pinia)
 }
